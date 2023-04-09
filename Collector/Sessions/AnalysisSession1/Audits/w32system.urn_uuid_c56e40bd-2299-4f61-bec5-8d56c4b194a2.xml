@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemList generator="w32system" generatorVersion="31.28.1" itemSchemaLocation="http://schemas.mandiant.com/2013/11/systeminfoitem.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://schemas.mandiant.com/2013/11/mir.w32system.xsd">
+ <SystemInfoItem created="2023-04-08T16:13:06Z" uid="04670d3c-341f-46c8-b156-c9da9155d832">
+  <machine>DESKTOP-QHAE1C8</machine>
+  <uptime>PT881744S</uptime>
+  <containmentState>normal</containmentState>
+  <biosInfo>
+   <biosDate>12/17/2019</biosDate>
+   <biosVersion>Insyde F.48</biosVersion>
+   <biosType>Unknown</biosType>
+  </biosInfo>
+  <directory>C:\WINDOWS\system32</directory>
+  <drives>c:,e:,f:</drives>
+  <procType>Multiprocessor Free</procType>
+  <regOwner>Anubhav Chauhan</regOwner>
+  <processor>Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz</processor>
+  <OS>Windows 10 Pro 19045</OS>
+  <productName>Windows 10 Pro</productName>
+  <buildNumber>19045</buildNumber>
+  <productID>00331-10000-00001-AA151</productID>
+  <installDate>2022-03-01T08:42:35Z</installDate>
+  <OSbitness>64-bit</OSbitness>
+  <timezoneDST>India Summer Time</timezoneDST>
+  <timezoneStandard>India Standard Time</timezoneStandard>
+  <timezone>India Standard Time</timezone>
+  <gmtoffset>+PT5H30M</gmtoffset>
+  <clockSkew>+PT0S</clockSkew>
+  <date>2023-04-08T16:13:07Z</date>
+  <stateAgentStatus>monitoring_disabled</stateAgentStatus>
+  <hostname>DESKTOP-QHAE1C8</hostname>
+  <domain>WORKGROUP</domain>
+  <networkArray>
+   <networkInfo>
+    <adapter>{65AD8D5B-399B-412C-B896-6DC261E24E6F}</adapter>
+    <description>Realtek PCIe FE Family Controller</description>
+    <MAC>98-e7-f4-de-80-37</MAC>
+    <ipArray>
+     <ipInfo>
+      <ipv6Address>fe80::519f:a0ff:b06e:4417</ipv6Address>
+     </ipInfo>
+     <ipInfo>
+      <ipAddress>169.254.53.167</ipAddress>
+     </ipInfo>
+    </ipArray>
+   </networkInfo>
+   <networkInfo>
+    <adapter>{8887893D-B628-4809-9A70-5642984B9131}</adapter>
+    <description>Microsoft Wi-Fi Direct Virtual Adapter</description>
+    <MAC>42-9f-38-42-82-24</MAC>
+    <ipArray>
+     <ipInfo>
+      <ipv6Address>fe80::7e4c:f066:e9d9:2bfe</ipv6Address>
+     </ipInfo>
+     <ipInfo>
+      <ipAddress>169.254.79.91</ipAddress>
+     </ipInfo>
+    </ipArray>
+   </networkInfo>
+   <networkInfo>
+    <adapter>{EC4EC1B0-F9E5-4E8D-A393-B40E71E2D546}</adapter>
+    <description>Microsoft Wi-Fi Direct Virtual Adapter #3</description>
+    <MAC>40-9f-38-42-82-24</MAC>
+    <ipArray>
+     <ipInfo>
+      <ipv6Address>fe80::1228:b653:c921:3708</ipv6Address>
+     </ipInfo>
+     <ipInfo>
+      <ipAddress>169.254.160.118</ipAddress>
+     </ipInfo>
+     <ipInfo>
+      <ipAddress>192.168.137.1</ipAddress>
+     </ipInfo>
+    </ipArray>
+   </networkInfo>
+   <networkInfo>
+    <adapter>{7F9FC4C0-D62C-4971-9274-16049F093494}</adapter>
+    <description>VMware Virtual Ethernet Adapter for VMnet1</description>
+    <MAC>00-50-56-c0-00-01</MAC>
+    <ipArray>
+     <ipInfo>
+      <ipv6Address>fe80::cc43:ad38:9ca5:31da</ipv6Address>
+     </ipInfo>
+     <ipInfo>
+      <subnetMask>255.255.255.0</subnetMask>
+      <ipAddress>192.168.116.1</ipAddress>
+     </ipInfo>
+    </ipArray>
+   </networkInfo>
+   <networkInfo>
+    <adapter>{8DF9B23E-92C3-419B-AEF3-54339168455A}</adapter>
+    <description>VMware Virtual Ethernet Adapter for VMnet8</description>
+    <MAC>00-50-56-c0-00-08</MAC>
+    <ipArray>
+     <ipInfo>
+      <ipv6Address>fe80::843d:2b4c:f05e:829e</ipv6Address>
+     </ipInfo>
+     <ipInfo>
+      <subnetMask>255.255.255.0</subnetMask>
+      <ipAddress>192.168.202.1</ipAddress>
+     </ipInfo>
+    </ipArray>
+   </networkInfo>
+   <networkInfo>
+    <adapter>{48C2DFE2-965A-4C17-81AE-5119452F7BFB}</adapter>
+    <description>Realtek RTL8188EE 802.11b/g/n PCIe Adapter</description>
+    <MAC>40-9f-38-42-82-24</MAC>
+    <ipArray>
+     <ipInfo>
+      <ipv6Address>fe80::cda5:153d:4350:5585</ipv6Address>
+     </ipInfo>
+     <ipInfo>
+      <subnetMask>255.255.255.0</subnetMask>
+      <ipAddress>192.168.1.108</ipAddress>
+     </ipInfo>
+    </ipArray>
+    <dhcpServerArray>
+     <dhcpServer>192.168.1.1</dhcpServer>
+    </dhcpServerArray>
+    <dhcpLeaseObtained>2023-04-08T15:17:11Z</dhcpLeaseObtained>
+    <dhcpLeaseExpires>2023-04-08T17:17:11Z</dhcpLeaseExpires>
+    <ipGatewayArray>
+     <ipGateway>192.168.1.1</ipGateway>
+    </ipGatewayArray>
+   </networkInfo>
+   <networkInfo>
+    <adapter>{BC4D91F8-97CB-11EC-A690-806E6F6E6963}</adapter>
+    <description>Software Loopback Interface 1</description>
+    <ipArray>
+     <ipInfo>
+      <ipv6Address>::1</ipv6Address>
+     </ipInfo>
+     <ipInfo>
+      <ipAddress>127.0.0.1</ipAddress>
+     </ipInfo>
+    </ipArray>
+   </networkInfo>
+  </networkArray>
+  <primaryIpv4Address>192.168.1.108</primaryIpv4Address>
+  <primaryIpAddress>192.168.1.108</primaryIpAddress>
+  <MAC>40-9f-38-42-82-24</MAC>
+  <totalphysical>8475639808</totalphysical>
+  <availphysical>2920423424</availphysical>
+  <user>Anubhav Chauhan</user>
+  <loggedOnUser>Font Driver Host\UMFD-0,WORKGROUP\DESKTOP-QHAE1C8$</loggedOnUser>
+  <appVersion>31.28.1</appVersion>
+  <platform>win</platform>
+  <appCreated>2023-04-08T16:12:38Z</appCreated>
+ </SystemInfoItem>
+</itemList>

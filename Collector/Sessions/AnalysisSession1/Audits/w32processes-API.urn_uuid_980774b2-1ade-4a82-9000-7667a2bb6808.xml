@@ -1,0 +1,2941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemList generator="w32processes-API" generatorVersion="1.4.36.0" itemSchemaLocation="http://schemas.mandiant.com/2013/11/processitem.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://schemas.mandiant.com/2013/11/mir.w32processes.xsd">
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="205b405b-6911-4aef-80cf-e4defb1511bd">
+  <pid>3960</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalServiceAndNoImpersonation -p -s SSDPSRV</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:52Z</startTime>
+  <kernelTime>PT13S</kernelTime>
+  <userTime>PT8S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="28b0a7a5-34f4-46b7-a001-0f70f65027cb">
+  <pid>4</pid>
+  <parentpid>0</parentpid>
+  <path />
+  <name>System</name>
+  <arguments />
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:17:57Z</startTime>
+  <kernelTime>PT273S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="805b6681-84a9-4382-942b-2ea6e4dd73a2">
+  <pid>4300</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_c2ac023763d5d3ad</path>
+  <name>OneApp.IGCC.WinService.exe</name>
+  <arguments>C:\WINDOWS\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_c2ac023763d5d3ad\OneApp.IGCC.WinService.exe</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:58Z</startTime>
+  <kernelTime>PT6S</kernelTime>
+  <userTime>PT6S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="dd3876d6-b6ad-4fd7-86e2-99427b1ce4b3">
+  <pid>4252</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\System32\svchost.exe -k utcsvc -p</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:58Z</startTime>
+  <kernelTime>PT20S</kernelTime>
+  <userTime>PT29S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="c22ee9e7-66be-45ed-a950-3362510009e2">
+  <pid>692</pid>
+  <parentpid>676</parentpid>
+  <path />
+  <name>csrss.exe</name>
+  <arguments />
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:30Z</startTime>
+  <kernelTime>PT8S</kernelTime>
+  <userTime>PT2S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="15a9db6a-f611-49b0-b6db-16937f89532d">
+  <pid>604</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:35Z</startTime>
+  <kernelTime>PT218S</kernelTime>
+  <userTime>PT160S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="95175d2d-e6a2-4cc2-84b9-d25963196c56">
+  <pid>456</pid>
+  <parentpid>4</parentpid>
+  <path />
+  <name>smss.exe</name>
+  <arguments />
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:17:57Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="499db4ac-7e7b-46cc-93a8-2dfb5678a454">
+  <pid>824</pid>
+  <parentpid>676</parentpid>
+  <path />
+  <name>wininit.exe</name>
+  <arguments />
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:31Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="f10bc23e-6e87-48d7-907e-28e3ef243bbe">
+  <pid>1756</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_51f685305808e3a5</path>
+  <name>IntelCpHeciSvc.exe</name>
+  <arguments>C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_51f685305808e3a5\IntelCpHeciSvc.exe</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:39Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="937936a3-69f6-4a31-b18a-2b85bade681a">
+  <pid>100</pid>
+  <parentpid>4</parentpid>
+  <path />
+  <name>Registry</name>
+  <arguments />
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:17:27Z</startTime>
+  <kernelTime>PT21S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="7f10d067-0890-4341-9986-8ed739f764ce">
+  <pid>872</pid>
+  <parentpid>824</parentpid>
+  <path />
+  <name>services.exe</name>
+  <arguments />
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:32Z</startTime>
+  <kernelTime>PT72S</kernelTime>
+  <userTime>PT60S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="e306c26c-34c2-4653-908f-527661a1807e">
+  <pid>3800</pid>
+  <parentpid>1920</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>taskhostw.exe</name>
+  <arguments>taskhostw.exe</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T15:17:14Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="493474fd-5fbc-4c23-accb-09fd5e7f3092">
+  <pid>880</pid>
+  <parentpid>824</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>lsass.exe</name>
+  <arguments>C:\WINDOWS\system32\lsass.exe</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:32Z</startTime>
+  <kernelTime>PT65S</kernelTime>
+  <userTime>PT79S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="14c2b2f2-1073-4ccd-be71-7b3b10258db9">
+  <pid>1488</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalSystemNetworkRestricted -p -s DisplayEnhancementService</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:38Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="ccb42cab-9e49-4076-923c-05a7fb733c6d">
+  <pid>796</pid>
+  <parentpid>872</parentpid>
+  <path>C:\Windows\System32</path>
+  <name>WUDFHost.exe</name>
+  <arguments>"C:\Windows\System32\WUDFHost.exe" -HostGUID:{193a1820-d9ac-4997-8c55-be817523f6aa} -IoEventPortName:\UMDFCommunicationPorts\WUDF\HostProcess-217393f2-fccd-4f30-9c27-e52d52a5bf9e -SystemEventPortName:\UMDFCommunicationPorts\WUDF\HostProcess-a621b63d-fe73-46c5-b5d4-e96777fb91c4 -IoCancelEventPortName:\UMDFCommunicationPorts\WUDF\HostProcess-e20d52da-053e-4089-bc33-95d3bd41413f -NonStateChangingEventPortName:\UMDFCommunicationPorts\WUDF\HostProcess-4a6ae5c5-86ba-440d-8f50-02da72cc2e01 -LifetimeId:85408051-3318-41da-a612-d4649f59afc4 -DeviceGroupId: -HostArg:0</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:35Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="157ad063-f660-4a52-8ea2-1583226d625f">
+  <pid>1036</pid>
+  <parentpid>824</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>fontdrvhost.exe</name>
+  <arguments>"fontdrvhost.exe"</arguments>
+  <Username>Font Driver Host\UMFD-0</Username>
+  <SecurityID>S-1-5-96-0-0</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:36Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="f78f6de3-2130-4b6f-ade9-e35cada34986">
+  <pid>948</pid>
+  <parentpid>4244</parentpid>
+  <path>C:\WINDOWS\TEMP\DPTF</path>
+  <name>esif_assist_64.exe</name>
+  <arguments>"C:\WINDOWS\TEMP\DPTF\esif_assist_64.exe"</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:02:36Z</startTime>
+  <kernelTime>PT1S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="a87c3c38-70df-48c0-97b7-e85ba85959c2">
+  <pid>3484</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalServiceNoNetworkFirewall -p</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:46Z</startTime>
+  <kernelTime>PT104S</kernelTime>
+  <userTime>PT138S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="5ec48d44-ab78-4576-9d5b-f8c93941324c">
+  <pid>3380</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\System32\svchost.exe -k netsvcs -p -s ShellHWDetection</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:45Z</startTime>
+  <kernelTime>PT1S</kernelTime>
+  <userTime>PT1S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="24759253-1f23-4d5e-a703-7b65c5f9b025">
+  <pid>6124</pid>
+  <parentpid>604</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>DllHost.exe</name>
+  <arguments>C:\WINDOWS\system32\DllHost.exe /Processid:{3EB3C877-1F16-487C-9050-104DBCD66683}</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:19:16Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="efcc9754-8302-4bc1-943e-4035ec627fbd">
+  <pid>1172</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k RPCSS -p</arguments>
+  <Username>NT AUTHORITY\NETWORK SERVICE</Username>
+  <SecurityID>S-1-5-20</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:37Z</startTime>
+  <kernelTime>PT145S</kernelTime>
+  <userTime>PT247S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="9dde64ec-74cf-4836-ae44-308c1d439258">
+  <pid>1988</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s UserManager</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:39Z</startTime>
+  <kernelTime>PT17S</kernelTime>
+  <userTime>PT12S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="7aed0572-d1a6-4728-b2fc-e96dcc366179">
+  <pid>1220</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p -s LSM</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:37Z</startTime>
+  <kernelTime>PT19S</kernelTime>
+  <userTime>PT12S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="ab66f91f-26db-44f4-a296-da1cacc4b9e2">
+  <pid>1480</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_51f685305808e3a5</path>
+  <name>IntelCpHDCPSvc.exe</name>
+  <arguments>C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_51f685305808e3a5\IntelCpHDCPSvc.exe</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:38Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="27eac037-3337-4cad-8912-995a40b41657">
+  <pid>1516</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalServiceNetworkRestricted -p -s TimeBrokerSvc</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:38Z</startTime>
+  <kernelTime>PT1S</kernelTime>
+  <userTime>PT2S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="0544de6f-e1b3-4dd8-8d06-2fd3f006e8d0">
+  <pid>1580</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalServiceNetworkRestricted -p -s Dhcp</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:40Z</startTime>
+  <kernelTime>PT28S</kernelTime>
+  <userTime>PT32S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="04ca4067-a50f-4510-a590-d7b0883ef49f">
+  <pid>1656</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\System32\svchost.exe -k LocalServiceNetworkRestricted -p -s EventLog</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:38Z</startTime>
+  <kernelTime>PT14S</kernelTime>
+  <userTime>PT19S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="e5b5ac14-fc62-4e10-8e8e-013efd9bd591">
+  <pid>1920</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s Schedule</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:39Z</startTime>
+  <kernelTime>PT52S</kernelTime>
+  <userTime>PT27S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="ef82db35-a4d6-42d3-b748-23d99ce800ae">
+  <pid>6088</pid>
+  <parentpid>14784</parentpid>
+  <path>C:\Program Files\Adobe\Acrobat DC\Acrobat\acrocef_2</path>
+  <name>AcroCEF.exe</name>
+  <arguments>"C:\Program Files\Adobe\Acrobat DC\Acrobat\acrocef_2\AcroCEF.exe" --type=gpu-process --log-severity=disable --user-agent-product="ReaderServices/23.1.20093 Chrome/105.0.0.0" --lang=en-US --user-data-dir="C:\Users\Anubhav Chauhan\AppData\Local\CEF\User Data" --gpu-preferences=UAAAAAAAAADgACAYAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAASAAAAAAAAAAYAAAAAgAAABAAAAAAAAAAGAAAAAAAAAAQAAAAAAAAAAAAAAAOAAAAEAAAAAAAAAABAAAADgAAAAgAAAAAAAAACAAAAAAAAAA= --use-gl=disabled --log-file="C:\Program Files\Adobe\Acrobat DC\Acrobat\acrocef_2\debug.log" --mojo-platform-channel-handle=2512 --field-trial-handle=1620,i,14976419727681391443,17087727913549011503,131072 --disable-features=BackForwardCache,CalculateNativeWinOcclusion,WinUseBrowserSpellChecker /prefetch:2</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T09:46:54Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="8750c6be-796f-4dd6-b42b-5a6652f5360f">
+  <pid>1888</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>atiesrxx.exe</name>
+  <arguments>C:\WINDOWS\system32\atiesrxx.exe</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:39Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="53104224-0258-4925-917a-da8fe1a795ce">
+  <pid>1952</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s ProfSvc</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:39Z</startTime>
+  <kernelTime>PT11S</kernelTime>
+  <userTime>PT1S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="9340be88-7ffd-42d8-8013-ffbd4225df21">
+  <pid>804</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalService -p -s nsi</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:39Z</startTime>
+  <kernelTime>PT15S</kernelTime>
+  <userTime>PT21S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="e4dc9e24-9591-4880-8faf-91f2edbb2274">
+  <pid>2120</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\System32\svchost.exe -k netsvcs -p -s Themes</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:40Z</startTime>
+  <kernelTime>PT1S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="6cc3d525-c794-42a5-b52a-23747ef75f14">
+  <pid>2268</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalServiceNetworkRestricted -p -s NgcCtnrSvc</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:55Z</startTime>
+  <kernelTime>PT2S</kernelTime>
+  <userTime>PT4S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="29d36ad6-e183-41cf-8455-0b9ce52e7c4b">
+  <pid>2124</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalSystemNetworkRestricted -p -s SysMain</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:40Z</startTime>
+  <kernelTime>PT341S</kernelTime>
+  <userTime>PT153S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="0e4f8fe7-8eed-4dfd-a463-45e21b027fab">
+  <pid>2148</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalService -p -s EventSystem</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:40Z</startTime>
+  <kernelTime>PT1S</kernelTime>
+  <userTime>PT4S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="50372cff-0f92-4648-a744-d5c11ae61794">
+  <pid>9056</pid>
+  <parentpid>19276</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --lang=en-US --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=663 --time-ticks-at-unix-epoch=-1680088479063775 --launch-time-ticks=878589959825 --mojo-platform-channel-handle=19296 --field-trial-handle=1868,i,9540411480093202279,438936824912553049,131072 /prefetch:1</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T15:17:21Z</startTime>
+  <kernelTime>PT1S</kernelTime>
+  <userTime>PT16S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="a5277539-ea83-4b6f-a30f-dd4244595b38">
+  <pid>13804</pid>
+  <parentpid>2684</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>AUDIODG.EXE</name>
+  <arguments>C:\WINDOWS\system32\AUDIODG.EXE 0x5cc</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-06T08:49:54Z</startTime>
+  <kernelTime>PT385S</kernelTime>
+  <userTime>PT189S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="0cb2fc65-2bb8-489f-86cd-991cc0891cde">
+  <pid>2276</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s lfsvc</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:41Z</startTime>
+  <kernelTime>PT26S</kernelTime>
+  <userTime>PT24S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="331e2cc8-9f68-48c3-8a18-5ed77ec193f2">
+  <pid>2364</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k appmodel -p -s camsvc</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:41Z</startTime>
+  <kernelTime>PT37S</kernelTime>
+  <userTime>PT38S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="bfc688e5-c5a0-46dd-9be2-b8eb2b162a63">
+  <pid>2780</pid>
+  <parentpid>872</parentpid>
+  <path>C:\Program Files\Realtek\Audio\HDA</path>
+  <name>RtkAudioService64.exe</name>
+  <arguments>"C:\Program Files\Realtek\Audio\HDA\RtkAudioService64.exe"</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:42Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="c8678348-9582-4110-96d2-6ef613fa7e1e">
+  <pid>2260</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32\DriverStore\FileRepository\cui_dch.inf_amd64_38cfab2b652e4701</path>
+  <name>igfxCUIService.exe</name>
+  <arguments>C:\WINDOWS\System32\DriverStore\FileRepository\cui_dch.inf_amd64_38cfab2b652e4701\igfxCUIService.exe</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:41Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="c4055b00-b2c9-4f7a-af9c-3798355274d7">
+  <pid>6772</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalSystemNetworkRestricted -p -s PcaSvc</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:21:08Z</startTime>
+  <kernelTime>PT5S</kernelTime>
+  <userTime>PT2S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="6b790046-2b61-4204-b0c7-60979db7cfe5">
+  <pid>2228</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s SENS</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:40Z</startTime>
+  <kernelTime>PT2S</kernelTime>
+  <userTime>PT1S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="abfc86dc-5479-4222-a208-44c5d77e3be0">
+  <pid>3512</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\System32\svchost.exe -k NetworkService -p -s LanmanWorkstation</arguments>
+  <Username>NT AUTHORITY\NETWORK SERVICE</Username>
+  <SecurityID>S-1-5-20</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:47Z</startTime>
+  <kernelTime>PT2S</kernelTime>
+  <userTime>PT2S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="cfea2e64-6c85-4c4e-b5e6-7a76848c7fbb">
+  <pid>2320</pid>
+  <parentpid>4</parentpid>
+  <path />
+  <name>Memory Compression</name>
+  <arguments />
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:41Z</startTime>
+  <kernelTime>PT416S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="873ac46c-652d-43c6-9025-a8df9e5cdda2">
+  <pid>2744</pid>
+  <parentpid>604</parentpid>
+  <path>C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy</path>
+  <name>LockApp.exe</name>
+  <arguments>"C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\LockApp.exe" -ServerName:WindowsDefaultLockScreen.AppX7y4nbzq37zn4ks9k7amqjywdat7d3j2z.mca</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:54:35Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="5fbb0718-36ad-4dc2-a8a2-4bff2af15995">
+  <pid>2408</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s AudioEndpointBuilder</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:41Z</startTime>
+  <kernelTime>PT3S</kernelTime>
+  <userTime>PT1S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="e9797067-6806-4fb4-aabf-c15240c36268">
+  <pid>2416</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalService -p -s FontCache</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:41Z</startTime>
+  <kernelTime>PT1S</kernelTime>
+  <userTime>PT2S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="a276ef22-84cc-4732-971f-a681479a7212">
+  <pid>3436</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>spoolsv.exe</name>
+  <arguments>C:\WINDOWS\System32\spoolsv.exe</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:46Z</startTime>
+  <kernelTime>PT2S</kernelTime>
+  <userTime>PT1S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="6f495c58-25cb-4d4e-b9cd-ee049951b440">
+  <pid>2504</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\System32\svchost.exe -k NetworkService -p -s NlaSvc</arguments>
+  <Username>NT AUTHORITY\NETWORK SERVICE</Username>
+  <SecurityID>S-1-5-20</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:41Z</startTime>
+  <kernelTime>PT82S</kernelTime>
+  <userTime>PT68S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="4fb1352f-396c-422c-9f0e-2419f2f2dbfd">
+  <pid>2600</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\System32\svchost.exe -k LocalService -p -s netprofm</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:42Z</startTime>
+  <kernelTime>PT54S</kernelTime>
+  <userTime>PT54S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="9bb4146d-bc42-4d3b-8d82-90755362f9c7">
+  <pid>20704</pid>
+  <parentpid>9884</parentpid>
+  <path>C:\Program Files\Realtek\Audio\HDA</path>
+  <name>RtkNGUI64.exe</name>
+  <arguments>"C:\Program Files\Realtek\Audio\HDA\RtkNGUI64.exe" -s</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:03:10Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="5b7c7572-26f5-4cd2-b91a-f92a3389e107">
+  <pid>2624</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalServiceNoNetwork -p</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:42Z</startTime>
+  <kernelTime>PT3S</kernelTime>
+  <userTime>PT5S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="b9593b47-55af-4a2d-93ca-1f039a8bfe55">
+  <pid>21176</pid>
+  <parentpid>604</parentpid>
+  <path>C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy</path>
+  <name>StartMenuExperienceHost.exe</name>
+  <arguments>"C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe" -ServerName:App.AppXywbrabmsek0gm3tkwpr5kwzbs55tkqay.mca</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:02:38Z</startTime>
+  <kernelTime>PT3S</kernelTime>
+  <userTime>PT9S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="b171eb73-db88-4cde-b879-6630f3ffe5e7">
+  <pid>2492</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalService -p -s DispBrokerDesktopSvc</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:43Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="47fe62d3-741c-4adf-9fa2-d800464a19a0">
+  <pid>4472</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s WpnService</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:58Z</startTime>
+  <kernelTime>PT8S</kernelTime>
+  <userTime>PT8S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="e5cb77ae-41d1-4eb5-a801-c22a044ed259">
+  <pid>21336</pid>
+  <parentpid>20048</parentpid>
+  <path>C:\Program Files\Common Files\Microsoft Shared\ClickToRun</path>
+  <name>AppVShNotify.exe</name>
+  <arguments>"C:\Program Files\Common Files\Microsoft Shared\ClickToRun\AppVShNotify.exe"</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:17:43Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="4b08ef8d-abc2-4a1b-9622-1a56924789db">
+  <pid>2652</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k appmodel -p -s StateRepository</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:42Z</startTime>
+  <kernelTime>PT33S</kernelTime>
+  <userTime>PT174S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="f6e92e1b-2e2b-49a8-82bb-8231c0fc1769">
+  <pid>2684</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\System32\svchost.exe -k LocalServiceNetworkRestricted -p</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:42Z</startTime>
+  <kernelTime>PT20S</kernelTime>
+  <userTime>PT21S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="643aab0d-bf17-4741-8b9d-35edc626e63b">
+  <pid>3032</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k NetworkService -p -s Dnscache</arguments>
+  <Username>NT AUTHORITY\NETWORK SERVICE</Username>
+  <SecurityID>S-1-5-20</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:43Z</startTime>
+  <kernelTime>PT210S</kernelTime>
+  <userTime>PT89S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="6a9ed84d-f3f9-4c02-99ef-92c2d342aff6">
+  <pid>3040</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalServiceNetworkRestricted -p</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:43Z</startTime>
+  <kernelTime>PT17S</kernelTime>
+  <userTime>PT16S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="5f2d6c82-60ec-4942-bd95-41f31f08cd21">
+  <pid>3052</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\System32\svchost.exe -k LocalServiceNetworkRestricted -p</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:43Z</startTime>
+  <kernelTime>PT3S</kernelTime>
+  <userTime>PT1S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="9f89ef7c-f18f-4a47-bd8c-70a95730d757">
+  <pid>3336</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalSystemNetworkRestricted -p</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:45Z</startTime>
+  <kernelTime>PT29S</kernelTime>
+  <userTime>PT43S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="fd90b837-fae6-4742-996f-74a8110bd4d8">
+  <pid>4244</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32\Intel\DPTF</path>
+  <name>esif_uf.exe</name>
+  <arguments>C:\WINDOWS\system32\Intel\DPTF\esif_uf.exe</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:58Z</startTime>
+  <kernelTime>PT3S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="4e155b1e-ef80-43d4-b110-521c47577c97">
+  <pid>19748</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalServiceNetworkRestricted -p -s WinHttpAutoProxySvc</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-06T16:22:01Z</startTime>
+  <kernelTime>PT8S</kernelTime>
+  <userTime>PT4S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="f98ded0e-547e-4d49-b04c-4c00c2967261">
+  <pid>3832</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalSystemNetworkRestricted -p -s DeviceAssociationService</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:50Z</startTime>
+  <kernelTime>PT1S</kernelTime>
+  <userTime>PT1S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="1376dfa4-f40d-45e9-be92-f47a181536ed">
+  <pid>3920</pid>
+  <parentpid>3832</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>dashost.exe</name>
+  <arguments>dashost.exe {32f2e1b6-e208-4ce0-a57d220140d506e4}</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:51Z</startTime>
+  <kernelTime>PT14S</kernelTime>
+  <userTime>PT9S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="c6c8b2d2-ea2c-4be7-af51-bbc08fbfd537">
+  <pid>4064</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\System32\svchost.exe -k LocalServiceNetworkRestricted -s RmSvc</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:54Z</startTime>
+  <kernelTime>PT1S</kernelTime>
+  <userTime>PT2S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="283f8aa4-4cac-4e9c-95c7-d6d87140a443">
+  <pid>4260</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k NetworkService -p -s CryptSvc</arguments>
+  <Username>NT AUTHORITY\NETWORK SERVICE</Username>
+  <SecurityID>S-1-5-20</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:58Z</startTime>
+  <kernelTime>PT29S</kernelTime>
+  <userTime>PT23S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="e00c98d4-4695-4caf-959a-1a600c6b5af6">
+  <pid>4804</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\System32\svchost.exe -k netsvcs</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:19:01Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="358a444b-8d86-4894-8c21-e1d922943f2f">
+  <pid>4280</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\System32\svchost.exe -k LocalServiceNoNetwork -p -s DPS</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:58Z</startTime>
+  <kernelTime>PT301S</kernelTime>
+  <userTime>PT377S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="c10fbf01-6526-4130-8438-82e0b825b5a8">
+  <pid>4560</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\SysWOW64</path>
+  <name>vmnetdhcp.exe</name>
+  <arguments>C:\WINDOWS\SysWOW64\vmnetdhcp.exe</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:58Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="9e8eaa6b-b007-4bef-9a31-370cc1aec1f3">
+  <pid>4576</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\SysWOW64</path>
+  <name>vmnat.exe</name>
+  <arguments>C:\WINDOWS\SysWOW64\vmnat.exe</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:58Z</startTime>
+  <kernelTime>PT17S</kernelTime>
+  <userTime>PT6S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="47adbfd9-7c2c-4dd4-9a2b-ffce82e4123d">
+  <pid>4440</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\SysWOW64</path>
+  <name>XtuService.exe</name>
+  <arguments>C:\WINDOWS\SysWOW64\XtuService.exe</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:58Z</startTime>
+  <kernelTime>PT1S</kernelTime>
+  <userTime>PT2S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="8e263a2f-a36a-47b2-adc0-01224433f1f9">
+  <pid>4368</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s Winmgmt</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:58Z</startTime>
+  <kernelTime>PT8S</kernelTime>
+  <userTime>PT18S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="8144baf5-bfdb-4949-8dd2-653daea3eb74">
+  <pid>4412</pid>
+  <parentpid>872</parentpid>
+  <path>C:\Program Files\Synaptics\SynTP</path>
+  <name>SynTPEnhService.exe</name>
+  <arguments>"C:\Program Files\Synaptics\SynTP\SynTPEnhService.exe"</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:58Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="38e1bbe1-420e-41f0-9e9f-d3b8dc3546ca">
+  <pid>4480</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k imgsvc</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:58Z</startTime>
+  <kernelTime>PT4S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="6e11c9e2-b23a-43bc-8916-8c64eb22e893">
+  <pid>8296</pid>
+  <parentpid>188</parentpid>
+  <path>C:\Program Files (x86)\BraveSoftware\Update\1.3.361.133</path>
+  <name>BraveCrashHandler64.exe</name>
+  <arguments>"C:\Program Files (x86)\BraveSoftware\Update\1.3.361.133\BraveCrashHandler64.exe"</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:21:57Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="3e6a3fea-f3d9-4e3d-9e3f-909d1e97e36a">
+  <pid>4448</pid>
+  <parentpid>872</parentpid>
+  <path>C:\Program Files\HPPrintScanDoctor</path>
+  <name>HPPrintScanDoctorService.exe</name>
+  <arguments>"C:\Program Files\HPPrintScanDoctor\HPPrintScanDoctorService.exe"</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:58Z</startTime>
+  <kernelTime>PT9S</kernelTime>
+  <userTime>PT13S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="70c970bc-3f37-4380-9dd5-606b903815d9">
+  <pid>4488</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalService -p -s SstpSvc</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:58Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="f83e87ac-818a-46a5-ab4c-384e7fb87699">
+  <pid>4496</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s TrkWks</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:58Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="ad5314f1-72ff-4643-8778-c08e43f8fea3">
+  <pid>4608</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\System32\svchost.exe -k LocalService -p -s WdiServiceHost</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:59Z</startTime>
+  <kernelTime>PT6S</kernelTime>
+  <userTime>PT2S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="2d5a7261-7df6-42a8-9868-d1c41e3a3a3a">
+  <pid>21464</pid>
+  <parentpid>6084</parentpid>
+  <path />
+  <name>csrss.exe</name>
+  <arguments />
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-06T20:06:10Z</startTime>
+  <kernelTime>PT49S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="b69014e9-4738-4ff8-93bd-485114995a10">
+  <pid>4640</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32\DriverStore\FileRepository\lms.inf_amd64_fddb643595e0b8d0</path>
+  <name>LMS.exe</name>
+  <arguments>C:\WINDOWS\System32\DriverStore\FileRepository\lms.inf_amd64_fddb643595e0b8d0\LMS.exe</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:59Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="1ff19685-4e75-439c-97fe-5bfda4252884">
+  <pid>4760</pid>
+  <parentpid>872</parentpid>
+  <path>C:\Program Files\MongoDB\Server\6.0\bin</path>
+  <name>mongod.exe</name>
+  <arguments>"C:\Program Files\MongoDB\Server\6.0\bin\mongod.exe" --config "C:\Program Files\MongoDB\Server\6.0\bin\mongod.cfg" --service</arguments>
+  <Username>NT AUTHORITY\NETWORK SERVICE</Username>
+  <SecurityID>S-1-5-20</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:59Z</startTime>
+  <kernelTime>PT83S</kernelTime>
+  <userTime>PT415S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="8aa88f5b-d228-4ad6-9c70-b2553b2f99f0">
+  <pid>4828</pid>
+  <parentpid>872</parentpid>
+  <path>C:\Program Files (x86)\VMware\VMware Player</path>
+  <name>vmware-authd.exe</name>
+  <arguments>"C:\Program Files (x86)\VMware\VMware Player\vmware-authd.exe"</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:59Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="1fbc2609-cec5-4992-8965-0d86b3fc3c4e">
+  <pid>4836</pid>
+  <parentpid>872</parentpid>
+  <path>C:\Program Files (x86)\Common Files\VMware\USB</path>
+  <name>vmware-usbarbitrator64.exe</name>
+  <arguments>"C:\Program Files (x86)\Common Files\VMware\USB\vmware-usbarbitrator64.exe"</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:59Z</startTime>
+  <kernelTime>PT8S</kernelTime>
+  <userTime>PT2S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="2dca5b09-617b-4347-a42e-0a224721da3c">
+  <pid>4868</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\System32\svchost.exe -k NetSvcs -p -s iphlpsvc</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:18:59Z</startTime>
+  <kernelTime>PT5S</kernelTime>
+  <userTime>PT5S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="dbdf0b1a-9e78-482b-abcb-05bb1462a2bd">
+  <pid>4948</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s LanmanServer</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:19:00Z</startTime>
+  <kernelTime>PT1S</kernelTime>
+  <userTime>PT1S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="693af172-4c3d-48ac-a318-ef6be20989eb">
+  <pid>5052</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32\DriverStore\FileRepository\dal.inf_amd64_5acc9ca73ae7cf4c</path>
+  <name>jhi_service.exe</name>
+  <arguments>C:\WINDOWS\System32\DriverStore\FileRepository\dal.inf_amd64_5acc9ca73ae7cf4c\jhi_service.exe</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:19:00Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="02d816da-e05f-4dd4-b546-5d66e0e1d4d3">
+  <pid>6240</pid>
+  <parentpid>604</parentpid>
+  <path>C:\WINDOWS\system32\wbem</path>
+  <name>wmiprvse.exe</name>
+  <arguments>C:\WINDOWS\system32\wbem\wmiprvse.exe</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:19:35Z</startTime>
+  <kernelTime>PT10S</kernelTime>
+  <userTime>PT1S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="385bca32-6e95-412e-9271-e94482043d0a">
+  <pid>21656</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>SearchIndexer.exe</name>
+  <arguments>C:\WINDOWS\system32\SearchIndexer.exe /Embedding</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-07T11:19:15Z</startTime>
+  <kernelTime>PT14S</kernelTime>
+  <userTime>PT26S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="22d7b5f3-53c5-408b-a3f0-e917ebcb0c36">
+  <pid>4236</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\Microsoft.Net\Framework64\v3.0\WPF</path>
+  <name>PresentationFontCache.exe</name>
+  <arguments>C:\WINDOWS\Microsoft.Net\Framework64\v3.0\WPF\PresentationFontCache.exe</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:20:58Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="df18a8e1-c8d8-4591-8bd6-7786532cf418">
+  <pid>22364</pid>
+  <parentpid>604</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>DllHost.exe</name>
+  <arguments>C:\WINDOWS\system32\DllHost.exe /Processid:{973D20D7-562D-44B9-B70B-5A0F49CCDF3F}</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T16:16:14Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="6e751580-b695-443a-8e60-960f990a6f17">
+  <pid>2672</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s TokenBroker</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:20:59Z</startTime>
+  <kernelTime>PT29S</kernelTime>
+  <userTime>PT67S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="34237386-87a7-498b-b661-4bab1d06635e">
+  <pid>7096</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s TabletInputService</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:21:02Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="f5e71119-4a26-4b1f-9261-9c7b349b4d49">
+  <pid>4468</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s NcbService</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:21:03Z</startTime>
+  <kernelTime>PT3S</kernelTime>
+  <userTime>PT5S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="ab42d53d-ac15-44ea-9629-58459fed96e2">
+  <pid>20320</pid>
+  <parentpid>604</parentpid>
+  <path>C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.22091.10031.0_x64__8wekyb3d8bbwe</path>
+  <name>Video.UI.exe</name>
+  <arguments>"C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.22091.10031.0_x64__8wekyb3d8bbwe\Video.UI.exe" -ServerName:Microsoft.ZuneVideo.AppX758ya5sqdjd98rx6z7g95nw6jy7bqx9y.mca</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T18:35:25Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="e0eba37b-eadb-47f9-83dc-040502c18f0c">
+  <pid>5392</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s Appinfo</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:21:03Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="838dd8a2-f09b-439e-ab47-718c41d13f3b">
+  <pid>15264</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalServiceAndNoImpersonation -p -s QWAVE</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-01T08:43:24Z</startTime>
+  <kernelTime>PT8S</kernelTime>
+  <userTime>PT4S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="1685c130-0f3c-4d32-b436-f225f4dfce2d">
+  <pid>6256</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalService -p -s CDPSvc</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:21:04Z</startTime>
+  <kernelTime>PT5S</kernelTime>
+  <userTime>PT9S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="47def288-f89d-4a0b-b471-78aed926d8d2">
+  <pid>16868</pid>
+  <parentpid>19276</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --extension-process --lang=en-US --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=28 --time-ticks-at-unix-epoch=-1680088479063775 --launch-time-ticks=776959049463 --mojo-platform-channel-handle=5196 --field-trial-handle=1868,i,9540411480093202279,438936824912553049,131072 /prefetch:1</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:03:58Z</startTime>
+  <kernelTime>PT26S</kernelTime>
+  <userTime>PT105S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="de38ab24-2c7a-487c-95bd-9d121ed14c67">
+  <pid>7256</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s UsoSvc</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:21:24Z</startTime>
+  <kernelTime>PT4S</kernelTime>
+  <userTime>PT4S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="b1869705-2e88-478e-bd75-6f0f2292c777">
+  <pid>9016</pid>
+  <parentpid>872</parentpid>
+  <path />
+  <name>svchost.exe</name>
+  <arguments />
+  <Username>NT AUTHORITY\NETWORK SERVICE</Username>
+  <SecurityID>S-1-5-20</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:21:52Z</startTime>
+  <kernelTime>PT140S</kernelTime>
+  <userTime>PT89S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="4dc98e5d-c617-44a4-95bc-ad3afea5cdf2">
+  <pid>6984</pid>
+  <parentpid>188</parentpid>
+  <path>C:\Program Files (x86)\BraveSoftware\Update\1.3.361.133</path>
+  <name>BraveCrashHandler.exe</name>
+  <arguments>"C:\Program Files (x86)\BraveSoftware\Update\1.3.361.133\BraveCrashHandler.exe"</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:21:57Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="d29e6428-2a1d-43a8-9cc1-29f2b4fd68b1">
+  <pid>12220</pid>
+  <parentpid>19276</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --extension-process --lang=en-US --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=33 --time-ticks-at-unix-epoch=-1680088479063775 --launch-time-ticks=776969442103 --mojo-platform-channel-handle=7676 --field-trial-handle=1868,i,9540411480093202279,438936824912553049,131072 /prefetch:1</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:04:08Z</startTime>
+  <kernelTime>PT11S</kernelTime>
+  <userTime>PT40S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="72997b2f-88e5-496b-b726-6cc0a7651188">
+  <pid>8668</pid>
+  <parentpid>872</parentpid>
+  <path />
+  <name>SecurityHealthService.exe</name>
+  <arguments />
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:21:57Z</startTime>
+  <kernelTime>PT4S</kernelTime>
+  <userTime>PT5S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="43004c2e-e21b-4140-a00f-3a608f97200e">
+  <pid>9324</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\System32\svchost.exe -k netsvcs -p</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:21:59Z</startTime>
+  <kernelTime>PT2S</kernelTime>
+  <userTime>PT2S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="540c1008-25c7-46a0-80c3-54fdb92d26f6">
+  <pid>9476</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\System32\svchost.exe -k LocalService -p -s LicenseManager</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:22:02Z</startTime>
+  <kernelTime>PT6S</kernelTime>
+  <userTime>PT9S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="43a15d30-ebf4-41ae-a7e5-585f2b673a34">
+  <pid>7936</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalService -p -s BthAvctpSvc</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:22:11Z</startTime>
+  <kernelTime>PT49S</kernelTime>
+  <userTime>PT32S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="ade57c13-8dfa-4b09-a5b2-094ccea91f35">
+  <pid>10284</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k WbioSvcGroup -s WbioSrvc</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:22:20Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="0027021d-df95-4627-97c7-c5c5d9b01726">
+  <pid>15632</pid>
+  <parentpid>7144</parentpid>
+  <path>C:\Program Files\Microsoft OneDrive\23.066.0326.0005</path>
+  <name>Microsoft.SharePoint.exe</name>
+  <arguments>"C:\Program Files\Microsoft OneDrive\23.066.0326.0005\Microsoft.SharePoint.exe"</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T11:06:00Z</startTime>
+  <kernelTime>PT1S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="ca87bf31-c145-4812-a2fa-871cf01765ea">
+  <pid>11692</pid>
+  <parentpid>872</parentpid>
+  <path />
+  <name>SgrmBroker.exe</name>
+  <arguments />
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:24:08Z</startTime>
+  <kernelTime>PT4S</kernelTime>
+  <userTime>PT12S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="23c4e3b1-d234-49a0-b003-93027c647c14">
+  <pid>11876</pid>
+  <parentpid>4312</parentpid>
+  <path>C:\Program Files (x86)\Google\Update\1.3.36.152</path>
+  <name>GoogleCrashHandler.exe</name>
+  <arguments>"C:\Program Files (x86)\Google\Update\1.3.36.152\GoogleCrashHandler.exe"</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:24:13Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="6f7fafda-5eac-4702-ac1b-d775f041d659">
+  <pid>12196</pid>
+  <parentpid>4312</parentpid>
+  <path>C:\Program Files (x86)\Google\Update\1.3.36.152</path>
+  <name>GoogleCrashHandler64.exe</name>
+  <arguments>"C:\Program Files (x86)\Google\Update\1.3.36.152\GoogleCrashHandler64.exe"</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:24:41Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="6fe0c5ea-0c2b-4d58-ad04-147efcb735a2">
+  <pid>13664</pid>
+  <parentpid>19276</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --lang=en-US --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=694 --time-ticks-at-unix-epoch=-1680088479063775 --launch-time-ticks=878945810790 --mojo-platform-channel-handle=1280 --field-trial-handle=1868,i,9540411480093202279,438936824912553049,131072 /prefetch:1</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T15:23:17Z</startTime>
+  <kernelTime>PT8S</kernelTime>
+  <userTime>PT67S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="a5f2021c-0e79-423e-9389-442d6fe83557">
+  <pid>10752</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s StorSvc</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:24:43Z</startTime>
+  <kernelTime>PT69S</kernelTime>
+  <userTime>PT31S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="6315fb40-f045-4119-93df-e1ed91cbf640">
+  <pid>16308</pid>
+  <parentpid>14784</parentpid>
+  <path>C:\Program Files\Adobe\Acrobat DC\Acrobat\acrocef_2</path>
+  <name>AcroCEF.exe</name>
+  <arguments>"C:\Program Files\Adobe\Acrobat DC\Acrobat\acrocef_2\AcroCEF.exe" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --log-severity=disable --user-agent-product="ReaderServices/23.1.20093 Chrome/105.0.0.0" --lang=en-US --user-data-dir="C:\Users\Anubhav Chauhan\AppData\Local\CEF\User Data" --log-file="C:\Program Files\Adobe\Acrobat DC\Acrobat\acrocef_2\debug.log" --mojo-platform-channel-handle=2252 --field-trial-handle=1620,i,14976419727681391443,17087727913549011503,131072 --disable-features=BackForwardCache,CalculateNativeWinOcclusion,WinUseBrowserSpellChecker /prefetch:8</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T09:46:52Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="1bcf4429-7ebc-4aac-a094-965257a052ad">
+  <pid>11980</pid>
+  <parentpid>872</parentpid>
+  <path />
+  <name>svchost.exe</name>
+  <arguments />
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:24:49Z</startTime>
+  <kernelTime>PT1S</kernelTime>
+  <userTime>PT2S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="5535ac4c-6677-425f-9a88-fa79b09c6096">
+  <pid>6764</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalService -p -s bthserv</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:28:18Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="92d4d561-34d4-4c75-8ee4-29b4bb87f297">
+  <pid>13176</pid>
+  <parentpid>3832</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>dashost.exe</name>
+  <arguments>dashost.exe {33a4e8e4-085a-4f90-9ebe7618d965456c}</arguments>
+  <Username>NT AUTHORITY\NETWORK SERVICE</Username>
+  <SecurityID>S-1-5-20</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-29T11:28:19Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="d57c22e5-bacb-4e99-a5c7-652dc9291439">
+  <pid>14024</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>msdtc.exe</name>
+  <arguments>C:\WINDOWS\System32\msdtc.exe</arguments>
+  <Username>NT AUTHORITY\NETWORK SERVICE</Username>
+  <SecurityID>S-1-5-20</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-03-31T07:34:40Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="6bc04f7b-0a48-4a7e-9a2c-9c9e07057b87">
+  <pid>14316</pid>
+  <parentpid>19276</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --mojo-platform-channel-handle=2080 --field-trial-handle=1868,i,9540411480093202279,438936824912553049,131072 /prefetch:8</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:03:52Z</startTime>
+  <kernelTime>PT163S</kernelTime>
+  <userTime>PT307S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="23ce1138-fe09-42fa-b745-ef86267dc00c">
+  <pid>17068</pid>
+  <parentpid>872</parentpid>
+  <path>C:\Program Files (x86)\Common Files\Adobe\ARM\1.0</path>
+  <name>armsvc.exe</name>
+  <arguments>"C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\armsvc.exe"</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-01T07:48:10Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="195b8306-1783-480a-bdc2-46e01656be3e">
+  <pid>4864</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalServiceAndNoImpersonation -p -s upnphost</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-01T19:19:14Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="f21cf1e5-4fca-415d-a9e5-a9d8d3e8f3cd">
+  <pid>20836</pid>
+  <parentpid>7096</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>ctfmon.exe</name>
+  <arguments>"ctfmon.exe"</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:02:36Z</startTime>
+  <kernelTime>PT6S</kernelTime>
+  <userTime>PT3S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="780194e6-1d4f-46eb-afce-6d37e3f7b0ea">
+  <pid>11408</pid>
+  <parentpid>604</parentpid>
+  <path>C:\Windows\System32</path>
+  <name>mousocoreworker.exe</name>
+  <arguments>C:\Windows\System32\mousocoreworker.exe -Embedding</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-02T06:58:36Z</startTime>
+  <kernelTime>PT152S</kernelTime>
+  <userTime>PT158S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="a1445448-0ddf-4c11-998b-4d456b243c81">
+  <pid>17104</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s DsSvc</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-02T08:02:21Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="f0a56762-a93c-44b7-8600-c10d1c17ad1f">
+  <pid>7844</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalService -p -s fdPHost</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-03T08:41:55Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="793bee78-b6bf-4a13-a694-859ef7415ef6">
+  <pid>13892</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalServiceAndNoImpersonation -p -s FDResPub</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-03T08:41:55Z</startTime>
+  <kernelTime>PT6S</kernelTime>
+  <userTime>PT5S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="7d20d0ae-d549-44ea-9121-9469b5a6f300">
+  <pid>6868</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>dllhost.exe</name>
+  <arguments>C:\WINDOWS\system32\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235}</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-03T11:25:28Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="9ed2e3a1-c551-444d-af83-15d0f9ff28c2">
+  <pid>9368</pid>
+  <parentpid>14328</parentpid>
+  <path>C:\Users\Anubhav Chauhan\Desktop\INT311\Collector\x64</path>
+  <name>xagt.exe</name>
+  <arguments>".\x64\xagt.exe"  -o "C:\Users\Anubhav Chauhan\Desktop\INT311\Collector\\Sessions\AnalysisSession1\Audits" -f "MemoryzeAuditScript.xml"</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T16:13:04Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="2f574d9c-40cd-4bda-8f14-f770d1b67838">
+  <pid>10152</pid>
+  <parentpid>604</parentpid>
+  <path>C:\Windows\System32</path>
+  <name>RuntimeBroker.exe</name>
+  <arguments>C:\Windows\System32\RuntimeBroker.exe -Embedding</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:02:42Z</startTime>
+  <kernelTime>PT3S</kernelTime>
+  <userTime>PT4S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="7f6993f3-7490-4655-8c74-d57e1d84a331">
+  <pid>11584</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s WdiSystemHost</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-03T11:38:44Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="696f5a6f-544d-405a-8842-36618800cfdf">
+  <pid>1788</pid>
+  <parentpid>1888</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>atieclxx.exe</name>
+  <arguments>atieclxx</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-06T20:06:19Z</startTime>
+  <kernelTime>PT28S</kernelTime>
+  <userTime>PT2S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="6272778c-4b0f-48af-8b34-020fbab7ade5">
+  <pid>5340</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\System32\svchost.exe -k LocalServiceAndNoImpersonation -p -s wcncsvc</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-05T18:37:51Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="5a59d6a1-53fd-4038-98da-572e1944fd1e">
+  <pid>3900</pid>
+  <parentpid>872</parentpid>
+  <path />
+  <name>MsMpEng.exe</name>
+  <arguments />
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-06T13:14:08Z</startTime>
+  <kernelTime>PT254S</kernelTime>
+  <userTime>PT248S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="7fd05185-1a90-4c9c-ad3c-8b1a9f71fe1b">
+  <pid>16660</pid>
+  <parentpid>872</parentpid>
+  <path />
+  <name>NisSrv.exe</name>
+  <arguments />
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-06T13:14:20Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="b00d5271-c556-40fb-87db-7a6fc3b7f5fb">
+  <pid>2316</pid>
+  <parentpid>6084</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>WinLogon.exe</name>
+  <arguments>C:\WINDOWS\System32\WinLogon.exe -SpecialSession</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-06T20:06:10Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="3917693d-229c-47a2-8baf-e217dd9ff09a">
+  <pid>13612</pid>
+  <parentpid>2316</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>dwm.exe</name>
+  <arguments>"dwm.exe"</arguments>
+  <Username>Window Manager\DWM-6</Username>
+  <SecurityID>S-1-5-90-0-6</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-06T20:06:10Z</startTime>
+  <kernelTime>PT272S</kernelTime>
+  <userTime>PT179S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="09bba734-8b0f-4fe0-8b36-372161297104">
+  <pid>15028</pid>
+  <parentpid>604</parentpid>
+  <path>C:\Windows\System32</path>
+  <name>RuntimeBroker.exe</name>
+  <arguments>C:\Windows\System32\RuntimeBroker.exe -Embedding</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:03:22Z</startTime>
+  <kernelTime>PT1S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="ba19ae79-2de1-4563-a210-466bb447884b">
+  <pid>12352</pid>
+  <parentpid>2316</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>fontdrvhost.exe</name>
+  <arguments>"fontdrvhost.exe"</arguments>
+  <Username>Font Driver Host\UMFD-6</Username>
+  <SecurityID>S-1-5-96-0-6</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-06T20:06:10Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="e14f96b2-2574-48a4-8e03-9b152103ce14">
+  <pid>10700</pid>
+  <parentpid>2780</parentpid>
+  <path>C:\Program Files\Realtek\Audio\HDA</path>
+  <name>RAVBg64.exe</name>
+  <arguments>"C:\Program Files\Realtek\Audio\HDA\RAVBg64.exe" /SRSPS</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-07T11:02:31Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="9045db4b-4299-4f0d-a8da-683051ed19e1">
+  <pid>15784</pid>
+  <parentpid>4412</parentpid>
+  <path>C:\Program Files\Synaptics\SynTP</path>
+  <name>SynTPEnh.exe</name>
+  <arguments>"C:\Program Files\Synaptics\SynTP\SynTPEnh.exe"</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:02:31Z</startTime>
+  <kernelTime>PT274S</kernelTime>
+  <userTime>PT356S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="06a91bc8-d15a-44ca-be29-a59db81d29fe">
+  <pid>3060</pid>
+  <parentpid>1988</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>sihost.exe</name>
+  <arguments>sihost.exe</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:02:31Z</startTime>
+  <kernelTime>PT11S</kernelTime>
+  <userTime>PT11S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="e4e85800-7e21-46cc-a984-8c57a72314b3">
+  <pid>16612</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k UnistackSvcGroup -s CDPUserSvc</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:02:31Z</startTime>
+  <kernelTime>PT3S</kernelTime>
+  <userTime>PT6S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="9d402533-7308-41a0-b899-8d3d521a7935">
+  <pid>6960</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k UnistackSvcGroup -s WpnUserService</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:02:31Z</startTime>
+  <kernelTime>PT2S</kernelTime>
+  <userTime>PT12S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="1af45f46-3c8b-46f2-ae51-2d665cdee013">
+  <pid>5152</pid>
+  <parentpid>2260</parentpid>
+  <path>C:\WINDOWS\System32\DriverStore\FileRepository\cui_dch.inf_amd64_38cfab2b652e4701</path>
+  <name>igfxEM.exe</name>
+  <arguments>"C:\WINDOWS\System32\DriverStore\FileRepository\cui_dch.inf_amd64_38cfab2b652e4701\igfxEM.exe"</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:02:31Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="22cb9212-b18f-4a09-a28b-f90c22198979">
+  <pid>6180</pid>
+  <parentpid>1920</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>taskhostw.exe</name>
+  <arguments>taskhostw.exe {222A245B-E637-4AE9-A93F-A59CA119A75E}</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:02:31Z</startTime>
+  <kernelTime>PT2S</kernelTime>
+  <userTime>PT2S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="f4e08d58-f4ef-456b-958c-796718a73e80">
+  <pid>9884</pid>
+  <parentpid>14808</parentpid>
+  <path>C:\WINDOWS</path>
+  <name>Explorer.EXE</name>
+  <arguments>C:\WINDOWS\Explorer.EXE</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:02:32Z</startTime>
+  <kernelTime>PT168S</kernelTime>
+  <userTime>PT153S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="b3bd4fe1-c1df-42ab-8252-8f0573b70429">
+  <pid>18236</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalSystemNetworkRestricted -p -s NgcSvc</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-07T11:02:33Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="e470ede5-af2f-40de-9720-455faaf441f6">
+  <pid>16352</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k ClipboardSvcGroup -p -s cbdhsvc</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:02:34Z</startTime>
+  <kernelTime>PT1S</kernelTime>
+  <userTime>PT3S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="55ea5f25-461a-47db-b896-b8379c107bb3">
+  <pid>7388</pid>
+  <parentpid>2700</parentpid>
+  <path>C:\PROGRAM FILES\SYNAPTICS\SYNTP</path>
+  <name>SYNTPHELPER.EXE</name>
+  <arguments>"C:\PROGRAM FILES\SYNAPTICS\SYNTP\SYNTPHELPER.EXE" </arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:02:34Z</startTime>
+  <kernelTime>PT2S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="2d15018a-eca9-40af-bf5f-2295a88ee43a">
+  <pid>21376</pid>
+  <parentpid>604</parentpid>
+  <path>C:\Windows\System32</path>
+  <name>RuntimeBroker.exe</name>
+  <arguments>C:\Windows\System32\RuntimeBroker.exe -Embedding</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:02:40Z</startTime>
+  <kernelTime>PT3S</kernelTime>
+  <userTime>PT4S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="f42e838b-e3db-4db5-9104-22ef4c8ac5f8">
+  <pid>14512</pid>
+  <parentpid>604</parentpid>
+  <path>C:\WINDOWS\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy</path>
+  <name>TextInputHost.exe</name>
+  <arguments>"C:\WINDOWS\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe" -ServerName:InputApp.AppXjd5de1g66v206tj52m9d0dtpppx4cgpn.mca</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:02:46Z</startTime>
+  <kernelTime>PT1S</kernelTime>
+  <userTime>PT1S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="4124feb7-e870-4f48-aa64-14b95d746d56">
+  <pid>22456</pid>
+  <parentpid>19276</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --extension-process --lang=en-US --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=750 --time-ticks-at-unix-epoch=-1680088479063775 --launch-time-ticks=881653480740 --mojo-platform-channel-handle=9696 --field-trial-handle=1868,i,9540411480093202279,438936824912553049,131072 /prefetch:1</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T16:08:25Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="3b11c910-eb61-4c5e-b31e-46bfbe02ae8d">
+  <pid>1784</pid>
+  <parentpid>604</parentpid>
+  <path>C:\WINDOWS\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy</path>
+  <name>SearchApp.exe</name>
+  <arguments>"C:\WINDOWS\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe" -ServerName:CortanaUI.AppX8z9r6jm96hw4bsbneegw0kyxx296wr9t.mca</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:03:04Z</startTime>
+  <kernelTime>PT4S</kernelTime>
+  <userTime>PT11S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="f9e3adc4-6c37-43fe-a119-5da2c943dea0">
+  <pid>3080</pid>
+  <parentpid>19276</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --extension-process --lang=en-US --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=8 --time-ticks-at-unix-epoch=-1680088479063775 --launch-time-ticks=776954501558 --mojo-platform-channel-handle=3392 --field-trial-handle=1868,i,9540411480093202279,438936824912553049,131072 /prefetch:1</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:03:53Z</startTime>
+  <kernelTime>PT13S</kernelTime>
+  <userTime>PT89S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="03ad60ea-b484-4bd2-b59a-39036213a18c">
+  <pid>3076</pid>
+  <parentpid>9884</parentpid>
+  <path>C:\Windows\System32</path>
+  <name>SecurityHealthSystray.exe</name>
+  <arguments>"C:\Windows\System32\SecurityHealthSystray.exe" </arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:03:09Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="e9fd295f-2499-42b2-ba01-9260aa12c065">
+  <pid>5132</pid>
+  <parentpid>604</parentpid>
+  <path>C:\Program Files\WindowsApps\Microsoft.549981C3F5F10_4.2204.13303.0_x64__8wekyb3d8bbwe</path>
+  <name>Cortana.exe</name>
+  <arguments>"C:\Program Files\WindowsApps\Microsoft.549981C3F5F10_4.2204.13303.0_x64__8wekyb3d8bbwe\Cortana.exe" -ServerName:App.AppX2y379sjp88wjq1y80217mddj3fargf2y.mca</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:03:18Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT9S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="0bc916cc-327e-496e-96f4-f1651c3b2795">
+  <pid>6624</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k AarSvcGroup -p -s AarSvc</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:03:23Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT1S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="2c8e81e9-402d-45b6-af7c-a256f7a3057b">
+  <pid>16244</pid>
+  <parentpid>8648</parentpid>
+  <path>C:\Program Files\AMD\CNext\CNext</path>
+  <name>RadeonSettings.exe</name>
+  <arguments>C:\Program Files\AMD\CNext\CNext\RadeonSettings.exe atlogon</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:03:42Z</startTime>
+  <kernelTime>PT90S</kernelTime>
+  <userTime>PT71S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="0601cf04-b0fd-4db0-861e-dbd75343ab3b">
+  <pid>19276</pid>
+  <parentpid>9884</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" </arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:03:47Z</startTime>
+  <kernelTime>PT127S</kernelTime>
+  <userTime>PT144S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="bd942105-36c8-4b7d-bc73-33ef3931faee">
+  <pid>12088</pid>
+  <parentpid>19276</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=crashpad-handler "--user-data-dir=C:\Users\Anubhav Chauhan\AppData\Local\Google\Chrome\User Data" /prefetch:7 --monitor-self-annotation=ptype=crashpad-handler "--database=C:\Users\Anubhav Chauhan\AppData\Local\Google\Chrome\User Data\Crashpad" "--metrics-dir=C:\Users\Anubhav Chauhan\AppData\Local\Google\Chrome\User Data" --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=plat=Win64 --annotation=prod=Chrome --annotation=ver=111.0.5563.148 --initial-client-data=0x118,0x11c,0x120,0xf4,0x124,0x7ffe545fba68,0x7ffe545fba78,0x7ffe545fba88</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:03:49Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="b116839c-6521-4802-b938-dfb262b5006b">
+  <pid>15780</pid>
+  <parentpid>19276</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=gpu-process --gpu-preferences=UAAAAAAAAADgAAAYAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --mojo-platform-channel-handle=1876 --field-trial-handle=1868,i,9540411480093202279,438936824912553049,131072 /prefetch:2</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:03:52Z</startTime>
+  <kernelTime>PT27S</kernelTime>
+  <userTime>PT147S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="02063c55-35b1-45f5-9a95-d8c7a02009f7">
+  <pid>5548</pid>
+  <parentpid>19276</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --mojo-platform-channel-handle=2252 --field-trial-handle=1868,i,9540411480093202279,438936824912553049,131072 /prefetch:8</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:03:52Z</startTime>
+  <kernelTime>PT5S</kernelTime>
+  <userTime>PT12S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="26fcd8b3-9457-44c9-a6cd-7508420f58a1">
+  <pid>18640</pid>
+  <parentpid>19276</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --extension-process --lang=en-US --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1680088479063775 --launch-time-ticks=776954279300 --mojo-platform-channel-handle=3100 --field-trial-handle=1868,i,9540411480093202279,438936824912553049,131072 /prefetch:1</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:03:53Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT3S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="bdf2a7bf-9b83-485f-b98a-a7e97c745677">
+  <pid>3760</pid>
+  <parentpid>9884</parentpid>
+  <path>C:\Program Files\Adobe\Acrobat DC\Acrobat</path>
+  <name>Acrobat.exe</name>
+  <arguments>"C:\Program Files\Adobe\Acrobat DC\Acrobat\Acrobat.exe" "C:\Users\Anubhav Chauhan\Desktop\OpenSourceAssignment3\RedlineUserGuide.pdf"</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T09:46:36Z</startTime>
+  <kernelTime>PT1S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="a524ecdc-bd69-408a-8d02-e34cf7413d21">
+  <pid>268</pid>
+  <parentpid>19276</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --extension-process --lang=en-US --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1680088479063775 --launch-time-ticks=776954464687 --mojo-platform-channel-handle=3292 --field-trial-handle=1868,i,9540411480093202279,438936824912553049,131072 /prefetch:1</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:03:53Z</startTime>
+  <kernelTime>PT6S</kernelTime>
+  <userTime>PT39S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="cc2d5476-c979-4f6f-bc8d-c4316c31ad1a">
+  <pid>11064</pid>
+  <parentpid>19276</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --extension-process --lang=en-US --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1680088479063775 --launch-time-ticks=776954480972 --mojo-platform-channel-handle=3384 --field-trial-handle=1868,i,9540411480093202279,438936824912553049,131072 /prefetch:1</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:03:53Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="c2d4bcaf-dd28-48f7-9ee9-3658fb140950">
+  <pid>12656</pid>
+  <parentpid>19276</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --lang=en-US --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=22 --time-ticks-at-unix-epoch=-1680088479063775 --launch-time-ticks=776984872184 --mojo-platform-channel-handle=9236 --field-trial-handle=1868,i,9540411480093202279,438936824912553049,131072 /prefetch:1</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:04:23Z</startTime>
+  <kernelTime>PT6S</kernelTime>
+  <userTime>PT42S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="b5f341d8-2d96-4a1b-a199-6b737bd9e810">
+  <pid>4204</pid>
+  <parentpid>19276</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --lang=en-US --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=23 --time-ticks-at-unix-epoch=-1680088479063775 --launch-time-ticks=776990523031 --mojo-platform-channel-handle=13332 --field-trial-handle=1868,i,9540411480093202279,438936824912553049,131072 /prefetch:1</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:04:29Z</startTime>
+  <kernelTime>PT6S</kernelTime>
+  <userTime>PT43S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="24cae872-5188-470a-8451-5912c04939e3">
+  <pid>1608</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k UnistackSvcGroup</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:04:31Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT1S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="68dffd3e-aeaa-4e3e-912c-9728915ea2b7">
+  <pid>3748</pid>
+  <parentpid>604</parentpid>
+  <path>C:\Windows\System32</path>
+  <name>CompPkgSrv.exe</name>
+  <arguments>C:\Windows\System32\CompPkgSrv.exe -Embedding</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:04:38Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="18e51015-3711-4e2d-8cec-0d8e2ca1500b">
+  <pid>11468</pid>
+  <parentpid>19276</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=audio --mojo-platform-channel-handle=13716 --field-trial-handle=1868,i,9540411480093202279,438936824912553049,131072 /prefetch:8</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:04:48Z</startTime>
+  <kernelTime>PT60S</kernelTime>
+  <userTime>PT158S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="96ec3658-93c8-4434-a3d4-ef495c71f648">
+  <pid>2856</pid>
+  <parentpid>604</parentpid>
+  <path>C:\Windows\System32\oobe</path>
+  <name>UserOOBEBroker.exe</name>
+  <arguments>C:\Windows\System32\oobe\UserOOBEBroker.exe -Embedding</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:12:57Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="49ce3e4f-33c2-45f1-8ede-ef0e8dc12bf7">
+  <pid>3120</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k UdkSvcGroup -s UdkUserSvc</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T10:23:28Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="e57d2aa3-03fc-4de7-8216-4e3ffff90824">
+  <pid>17788</pid>
+  <parentpid>604</parentpid>
+  <path>C:\WINDOWS\SystemApps\ShellExperienceHost_cw5n1h2txyewy</path>
+  <name>ShellExperienceHost.exe</name>
+  <arguments>"C:\WINDOWS\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe" -ServerName:App.AppXtk181tbxbce2qsex02s8tw7hfxa9xb3t.mca</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:13:18Z</startTime>
+  <kernelTime>PT11S</kernelTime>
+  <userTime>PT46S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="a4814f7b-68cc-48c2-bb58-558df11229da">
+  <pid>20820</pid>
+  <parentpid>604</parentpid>
+  <path>C:\Windows\System32</path>
+  <name>RuntimeBroker.exe</name>
+  <arguments>C:\Windows\System32\RuntimeBroker.exe -Embedding</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:13:19Z</startTime>
+  <kernelTime>PT4S</kernelTime>
+  <userTime>PT3S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="21965697-5f44-4cd4-bec5-f93cbea04174">
+  <pid>20048</pid>
+  <parentpid>872</parentpid>
+  <path>C:\Program Files\Common Files\Microsoft Shared\ClickToRun</path>
+  <name>OfficeClickToRun.exe</name>
+  <arguments>"C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeClickToRun.exe" /service</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-07T11:16:41Z</startTime>
+  <kernelTime>PT18S</kernelTime>
+  <userTime>PT30S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="57bd9be8-686c-4adc-ba8d-6f7478afb29f">
+  <pid>7848</pid>
+  <parentpid>604</parentpid>
+  <path>C:\Windows\System32</path>
+  <name>RuntimeBroker.exe</name>
+  <arguments>C:\Windows\System32\RuntimeBroker.exe -Embedding</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T11:54:36Z</startTime>
+  <kernelTime>PT3S</kernelTime>
+  <userTime>PT4S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="fb76d2c7-151e-4669-aee0-809758f8f283">
+  <pid>9828</pid>
+  <parentpid>604</parentpid>
+  <path>C:\Program Files\WindowsApps\Microsoft.ZuneMusic_11.2211.35.0_x64__8wekyb3d8bbwe</path>
+  <name>Microsoft.Media.Player.exe</name>
+  <arguments>"C:\Program Files\WindowsApps\Microsoft.ZuneMusic_11.2211.35.0_x64__8wekyb3d8bbwe\Microsoft.Media.Player.exe" -ServerName:Microsoft.ZuneMusic.AppXr954g6gg1tvs748d5g67zt981dvpmnr6.mca</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T11:08:05Z</startTime>
+  <kernelTime>PT3S</kernelTime>
+  <userTime>PT2S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="44b9b6aa-8a4b-483f-ad18-f0701ca2867d">
+  <pid>21344</pid>
+  <parentpid>604</parentpid>
+  <path>C:\WINDOWS\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy</path>
+  <name>SearchApp.exe</name>
+  <arguments>"C:\WINDOWS\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe" -ServerName:ShellFeedsUI.AppX88fpyyrd21w8wqe62wzsjh5agex7tf1e.mca</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T16:16:12Z</startTime>
+  <kernelTime>PT6S</kernelTime>
+  <userTime>PT43S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="d776b0d8-6c3e-4d78-be7f-73b522753111">
+  <pid>11512</pid>
+  <parentpid>604</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>ApplicationFrameHost.exe</name>
+  <arguments>C:\WINDOWS\system32\ApplicationFrameHost.exe -Embedding</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T16:18:05Z</startTime>
+  <kernelTime>PT1S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="e8ab0bdd-0a32-4288-84d6-a3e4e895ddbd">
+  <pid>1564</pid>
+  <parentpid>604</parentpid>
+  <path>C:\Windows\ImmersiveControlPanel</path>
+  <name>SystemSettings.exe</name>
+  <arguments>"C:\Windows\ImmersiveControlPanel\SystemSettings.exe" -ServerName:microsoft.windows.immersivecontrolpanel</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T16:18:34Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="a940ec24-0419-4337-9686-b7df6761fa12">
+  <pid>19956</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k LocalService -s W32Time</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-07T16:29:27Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="a98b164f-97b4-42a7-94c2-f791ed55d5e0">
+  <pid>22296</pid>
+  <parentpid>604</parentpid>
+  <path>C:\Windows\System32</path>
+  <name>RuntimeBroker.exe</name>
+  <arguments>C:\Windows\System32\RuntimeBroker.exe -Embedding</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T16:45:18Z</startTime>
+  <kernelTime>PT3S</kernelTime>
+  <userTime>PT3S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="3ce5b309-b965-49d0-a832-c14b4645d6a9">
+  <pid>12432</pid>
+  <parentpid>9884</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>rundll32.exe</name>
+  <arguments>"C:\WINDOWS\system32\rundll32.exe" -localserver 22d8c27b-47a1-48d1-ad08-7da7abd79617</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T16:53:56Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="0bb5e904-2fc3-4201-8a79-ba56eb4f0ec0">
+  <pid>9332</pid>
+  <parentpid>604</parentpid>
+  <path>C:\Windows\System32</path>
+  <name>RuntimeBroker.exe</name>
+  <arguments>C:\Windows\System32\RuntimeBroker.exe -Embedding</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-07T18:35:29Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="8d5ab9a1-5209-46c1-b536-0f81562d9387">
+  <pid>13696</pid>
+  <parentpid>3760</parentpid>
+  <path>C:\Program Files\Adobe\Acrobat DC\Acrobat</path>
+  <name>Acrobat.exe</name>
+  <arguments>"C:\Program Files\Adobe\Acrobat DC\Acrobat\Acrobat.exe" --type=renderer /prefetch:1  "C:\Users\Anubhav Chauhan\Desktop\OpenSourceAssignment3\RedlineUserGuide.pdf"</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T09:46:37Z</startTime>
+  <kernelTime>PT19S</kernelTime>
+  <userTime>PT58S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="03fbe987-afd3-4c80-bada-4c83f5b8eceb">
+  <pid>14784</pid>
+  <parentpid>3760</parentpid>
+  <path>C:\Program Files\Adobe\Acrobat DC\Acrobat\acrocef_2</path>
+  <name>AcroCEF.exe</name>
+  <arguments>"C:\Program Files\Adobe\Acrobat DC\Acrobat\acrocef_2\AcroCEF.exe" --backgroundcolor=16514043</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T09:46:45Z</startTime>
+  <kernelTime>PT3S</kernelTime>
+  <userTime>PT6S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="d78acdad-b9d7-434e-94ea-e21f8ead8e28">
+  <pid>15052</pid>
+  <parentpid>21656</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>SearchProtocolHost.exe</name>
+  <arguments>"C:\WINDOWS\system32\SearchProtocolHost.exe" Global\UsGthrFltPipeMssGthrPipe7_ Global\UsGthrCtrlFltPipeMssGthrPipe7 1 -2147483646 "Software\Microsoft\Windows Search" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)" "C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc" "DownLevelDaemon" </arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-08T16:06:10Z</startTime>
+  <kernelTime>PT1S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="17ee02d0-41d4-40a3-8981-a2932bb31ba7">
+  <pid>20060</pid>
+  <parentpid>14784</parentpid>
+  <path>C:\Program Files\Adobe\Acrobat DC\Acrobat\acrocef_2</path>
+  <name>AcroCEF.exe</name>
+  <arguments>"C:\Program Files\Adobe\Acrobat DC\Acrobat\acrocef_2\AcroCEF.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --log-severity=disable --user-agent-product="ReaderServices/23.1.20093 Chrome/105.0.0.0" --lang=en-US --user-data-dir="C:\Users\Anubhav Chauhan\AppData\Local\CEF\User Data" --log-file="C:\Program Files\Adobe\Acrobat DC\Acrobat\acrocef_2\debug.log" --mojo-platform-channel-handle=2132 --field-trial-handle=1620,i,14976419727681391443,17087727913549011503,131072 --disable-features=BackForwardCache,CalculateNativeWinOcclusion,WinUseBrowserSpellChecker /prefetch:8</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T09:46:52Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="c5f6fb9a-eccf-4bf7-ad0a-eb360681c0cf">
+  <pid>1308</pid>
+  <parentpid>14784</parentpid>
+  <path>C:\Program Files\Adobe\Acrobat DC\Acrobat\acrocef_2</path>
+  <name>AcroCEF.exe</name>
+  <arguments>"C:\Program Files\Adobe\Acrobat DC\Acrobat\acrocef_2\AcroCEF.exe" --type=renderer --log-severity=disable --user-agent-product="ReaderServices/23.1.20093 Chrome/105.0.0.0" --user-data-dir="C:\Users\Anubhav Chauhan\AppData\Local\CEF\User Data" --first-renderer-process --log-file="C:\Program Files\Adobe\Acrobat DC\Acrobat\acrocef_2\debug.log" --touch-events=enabled --lang=en-US --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=6 --launch-time-ticks=858761379083 --mojo-platform-channel-handle=2408 --field-trial-handle=1620,i,14976419727681391443,17087727913549011503,131072 --disable-features=BackForwardCache,CalculateNativeWinOcclusion,WinUseBrowserSpellChecker /prefetch:1</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T09:46:53Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT3S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="9e40f766-a039-470f-80fc-3b1002443816">
+  <pid>5892</pid>
+  <parentpid>14784</parentpid>
+  <path>C:\Program Files\Adobe\Acrobat DC\Acrobat\acrocef_2</path>
+  <name>AcroCEF.exe</name>
+  <arguments>"C:\Program Files\Adobe\Acrobat DC\Acrobat\acrocef_2\AcroCEF.exe" --type=renderer --log-severity=disable --user-agent-product="ReaderServices/23.1.20093 Chrome/105.0.0.0" --user-data-dir="C:\Users\Anubhav Chauhan\AppData\Local\CEF\User Data" --log-file="C:\Program Files\Adobe\Acrobat DC\Acrobat\acrocef_2\debug.log" --touch-events=enabled --disable-gpu-compositing --lang=en-US --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=10 --launch-time-ticks=858762520851 --mojo-platform-channel-handle=2776 --field-trial-handle=1620,i,14976419727681391443,17087727913549011503,131072 --disable-features=BackForwardCache,CalculateNativeWinOcclusion,WinUseBrowserSpellChecker /prefetch:1</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T09:46:54Z</startTime>
+  <kernelTime>PT2S</kernelTime>
+  <userTime>PT21S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="a57cfb2e-a441-4742-af21-e8cf0187d036">
+  <pid>19084</pid>
+  <parentpid>14784</parentpid>
+  <path>C:\Program Files\Adobe\Acrobat DC\Acrobat\acrocef_2</path>
+  <name>AcroCEF.exe</name>
+  <arguments>"C:\Program Files\Adobe\Acrobat DC\Acrobat\acrocef_2\AcroCEF.exe" --type=renderer --log-severity=disable --user-agent-product="ReaderServices/23.1.20093 Chrome/105.0.0.0" --user-data-dir="C:\Users\Anubhav Chauhan\AppData\Local\CEF\User Data" --log-file="C:\Program Files\Adobe\Acrobat DC\Acrobat\acrocef_2\debug.log" --touch-events=enabled --disable-gpu-compositing --lang=en-US --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=12 --launch-time-ticks=858763162367 --mojo-platform-channel-handle=2608 --field-trial-handle=1620,i,14976419727681391443,17087727913549011503,131072 --disable-features=BackForwardCache,CalculateNativeWinOcclusion,WinUseBrowserSpellChecker /prefetch:1</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T09:46:54Z</startTime>
+  <kernelTime>PT2S</kernelTime>
+  <userTime>PT21S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="48f96e75-3bfa-41ac-b194-bad308780256">
+  <pid>11248</pid>
+  <parentpid>14784</parentpid>
+  <path>C:\Program Files\Adobe\Acrobat DC\Acrobat\acrocef_2</path>
+  <name>AcroCEF.exe</name>
+  <arguments>"C:\Program Files\Adobe\Acrobat DC\Acrobat\acrocef_2\AcroCEF.exe" --type=renderer --log-severity=disable --user-agent-product="ReaderServices/23.1.20093 Chrome/105.0.0.0" --user-data-dir="C:\Users\Anubhav Chauhan\AppData\Local\CEF\User Data" --log-file="C:\Program Files\Adobe\Acrobat DC\Acrobat\acrocef_2\debug.log" --touch-events=enabled --disable-gpu-compositing --lang=en-US --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=13 --launch-time-ticks=858836129330 --mojo-platform-channel-handle=3180 --field-trial-handle=1620,i,14976419727681391443,17087727913549011503,131072 --disable-features=BackForwardCache,CalculateNativeWinOcclusion,WinUseBrowserSpellChecker /prefetch:1</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T09:48:07Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT2S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="d249ef28-b84a-4ed5-a623-536d8ea68742">
+  <pid>21696</pid>
+  <parentpid>604</parentpid>
+  <path>C:\Program Files\WindowsApps\Microsoft.XboxGamingOverlay_5.823.1271.0_x64__8wekyb3d8bbwe</path>
+  <name>GameBar.exe</name>
+  <arguments>"C:\Program Files\WindowsApps\Microsoft.XboxGamingOverlay_5.823.1271.0_x64__8wekyb3d8bbwe\GameBar.exe" -ServerName:App.AppXbdkk0yrkwpcgeaem8zk81k8py1eaahny.mca</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T09:51:00Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="c5b88778-5418-4f84-ab71-255f9f2b9ea1">
+  <pid>5732</pid>
+  <parentpid>604</parentpid>
+  <path>C:\Program Files\WindowsApps\Microsoft.XboxGamingOverlay_5.823.1271.0_x64__8wekyb3d8bbwe</path>
+  <name>GameBarFTServer.exe</name>
+  <arguments>"C:\Program Files\WindowsApps\Microsoft.XboxGamingOverlay_5.823.1271.0_x64__8wekyb3d8bbwe\GameBarFTServer.exe" -Embedding</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T09:51:02Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="25e5eb81-1c38-414b-a6ba-cfee070562ae">
+  <pid>14432</pid>
+  <parentpid>604</parentpid>
+  <path>C:\Windows\System32</path>
+  <name>RuntimeBroker.exe</name>
+  <arguments>C:\Windows\System32\RuntimeBroker.exe -Embedding</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T09:51:03Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="5662b547-61dd-46c6-a63f-db744c0ae52e">
+  <pid>8684</pid>
+  <parentpid>604</parentpid>
+  <path>C:\Windows\System32</path>
+  <name>SystemSettingsBroker.exe</name>
+  <arguments>C:\Windows\System32\SystemSettingsBroker.exe -Embedding</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T10:23:33Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="839270ea-b938-4c07-b9d5-c6d0e50ef10d">
+  <pid>2020</pid>
+  <parentpid>604</parentpid>
+  <path>C:\Program Files\WindowsApps\Microsoft.Windows.Photos_2023.10030.7003.0_x64__8wekyb3d8bbwe</path>
+  <name>Microsoft.Photos.exe</name>
+  <arguments>"C:\Program Files\WindowsApps\Microsoft.Windows.Photos_2023.10030.7003.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe" -ServerName:App.AppXzst44mncqdg84v7sv6p7yznqwssy6f7f.mca</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T10:35:26Z</startTime>
+  <kernelTime>PT4S</kernelTime>
+  <userTime>PT3S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="44d45e35-ced2-439a-b201-99f82bbc9569">
+  <pid>15604</pid>
+  <parentpid>604</parentpid>
+  <path>C:\Windows\System32</path>
+  <name>RuntimeBroker.exe</name>
+  <arguments>C:\Windows\System32\RuntimeBroker.exe -Embedding</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T10:35:30Z</startTime>
+  <kernelTime>PT2S</kernelTime>
+  <userTime>PT3S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="d282ca1e-56bb-4552-a04a-425f358bae53">
+  <pid>20864</pid>
+  <parentpid>604</parentpid>
+  <path>C:\Program Files\WindowsApps\Microsoft.YourPhone_1.23022.140.0_x64__8wekyb3d8bbwe</path>
+  <name>PhoneExperienceHost.exe</name>
+  <arguments>"C:\Program Files\WindowsApps\Microsoft.YourPhone_1.23022.140.0_x64__8wekyb3d8bbwe\PhoneExperienceHost.exe" -ComServer:Background -Embedding</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T10:36:41Z</startTime>
+  <kernelTime>PT1S</kernelTime>
+  <userTime>PT2S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="be9b33fb-988c-479b-8038-17d5368fbae4">
+  <pid>1944</pid>
+  <parentpid>7144</parentpid>
+  <path>C:\Program Files\Microsoft OneDrive</path>
+  <name>OneDrive.exe</name>
+  <arguments> /updateInstalled /background</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T11:05:53Z</startTime>
+  <kernelTime>PT5S</kernelTime>
+  <userTime>PT4S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="4e0740a7-7aed-4e87-aa4c-839f23931678">
+  <pid>6148</pid>
+  <parentpid>604</parentpid>
+  <path>C:\Windows\System32</path>
+  <name>RuntimeBroker.exe</name>
+  <arguments>C:\Windows\System32\RuntimeBroker.exe -Embedding</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T11:08:07Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="2f2b4b34-fb65-4016-9577-6f23bd35fa5c">
+  <pid>14268</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\System32\svchost.exe -k LocalServiceNetworkRestricted -p -s lmhosts</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-08T15:17:05Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="1bf55f09-a7d6-469a-93b4-0d2a8ce91ab7">
+  <pid>4420</pid>
+  <parentpid>872</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>svchost.exe</name>
+  <arguments>C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s wlidsvc</arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-08T15:17:05Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="92cab78a-8a47-4180-9dc3-d6c13677b1b1">
+  <pid>3364</pid>
+  <parentpid>19276</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --lang=en-US --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=667 --time-ticks-at-unix-epoch=-1680088479063775 --launch-time-ticks=878615941708 --mojo-platform-channel-handle=15124 --field-trial-handle=1868,i,9540411480093202279,438936824912553049,131072 /prefetch:1</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T15:17:47Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT3S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="7c5aa59c-c85d-4271-bb14-417dcc6213fa">
+  <pid>21292</pid>
+  <parentpid>19276</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --lang=en-US --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=668 --time-ticks-at-unix-epoch=-1680088479063775 --launch-time-ticks=878615954322 --mojo-platform-channel-handle=9512 --field-trial-handle=1868,i,9540411480093202279,438936824912553049,131072 /prefetch:1</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T15:17:47Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT1S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="b6720988-e018-4227-9195-bd0680f1849f">
+  <pid>17504</pid>
+  <parentpid>19276</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --lang=en-US --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=669 --time-ticks-at-unix-epoch=-1680088479063775 --launch-time-ticks=878617400079 --mojo-platform-channel-handle=14256 --field-trial-handle=1868,i,9540411480093202279,438936824912553049,131072 /prefetch:1</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T15:17:49Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT4S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="1eb8a127-8997-4b2e-968e-d39a24338072">
+  <pid>4896</pid>
+  <parentpid>19276</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --lang=en-US --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=670 --time-ticks-at-unix-epoch=-1680088479063775 --launch-time-ticks=878619579969 --mojo-platform-channel-handle=6292 --field-trial-handle=1868,i,9540411480093202279,438936824912553049,131072 /prefetch:1</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T15:17:51Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT6S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="ff5fee28-a9ea-42b1-9008-bc0fc51ab325">
+  <pid>9728</pid>
+  <parentpid>19276</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --lang=en-US --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=684 --time-ticks-at-unix-epoch=-1680088479063775 --launch-time-ticks=878914621670 --mojo-platform-channel-handle=20244 --field-trial-handle=1868,i,9540411480093202279,438936824912553049,131072 /prefetch:1</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T15:22:46Z</startTime>
+  <kernelTime>PT37S</kernelTime>
+  <userTime>PT250S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="8c2a9da8-28ba-4b8c-bb91-26301fe0adb2">
+  <pid>21932</pid>
+  <parentpid>19276</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --lang=en-US --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=689 --time-ticks-at-unix-epoch=-1680088479063775 --launch-time-ticks=878936853756 --mojo-platform-channel-handle=17116 --field-trial-handle=1868,i,9540411480093202279,438936824912553049,131072 /prefetch:1</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T15:23:08Z</startTime>
+  <kernelTime>PT2S</kernelTime>
+  <userTime>PT28S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="eedaafbd-02d4-45b3-9e08-965f7aa9be1e">
+  <pid>2908</pid>
+  <parentpid>19276</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --lang=en-US --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=692 --time-ticks-at-unix-epoch=-1680088479063775 --launch-time-ticks=878938845921 --mojo-platform-channel-handle=16756 --field-trial-handle=1868,i,9540411480093202279,438936824912553049,131072 /prefetch:1</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T15:23:10Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT1S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="c894b811-6857-4434-9f44-933cb82858ad">
+  <pid>19656</pid>
+  <parentpid>19276</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --lang=en-US --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=693 --time-ticks-at-unix-epoch=-1680088479063775 --launch-time-ticks=878945028764 --mojo-platform-channel-handle=14816 --field-trial-handle=1868,i,9540411480093202279,438936824912553049,131072 /prefetch:1</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T15:23:16Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT1S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="23228de5-af25-417e-bea6-aab7f33c2a99">
+  <pid>1896</pid>
+  <parentpid>19276</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --lang=en-US --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=696 --time-ticks-at-unix-epoch=-1680088479063775 --launch-time-ticks=878949735838 --mojo-platform-channel-handle=15512 --field-trial-handle=1868,i,9540411480093202279,438936824912553049,131072 /prefetch:1</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T15:23:21Z</startTime>
+  <kernelTime>PT65S</kernelTime>
+  <userTime>PT359S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="95d63563-5eb7-454e-972a-9ebbcb2eb758">
+  <pid>10728</pid>
+  <parentpid>3900</parentpid>
+  <path />
+  <name>MpCopyAccelerator.exe</name>
+  <arguments />
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-08T16:06:59Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="f17a4e2c-7d5e-48fb-bb7d-19fe4a67e643">
+  <pid>2596</pid>
+  <parentpid>604</parentpid>
+  <path>C:\WINDOWS</path>
+  <name>explorer.exe</name>
+  <arguments>C:\WINDOWS\explorer.exe /factory,{75dff2b7-6936-4c06-a8bb-676a7b00b24b} -Embedding</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T16:07:54Z</startTime>
+  <kernelTime>PT9S</kernelTime>
+  <userTime>PT6S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="770c8b45-d15e-47d9-addc-9bd3fc545cd4">
+  <pid>16932</pid>
+  <parentpid>19276</parentpid>
+  <path>C:\Program Files\Google\Chrome\Application</path>
+  <name>chrome.exe</name>
+  <arguments>"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --lang=en-US --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=758 --time-ticks-at-unix-epoch=-1680088479063775 --launch-time-ticks=881844530822 --mojo-platform-channel-handle=19428 --field-trial-handle=1868,i,9540411480093202279,438936824912553049,131072 /prefetch:1</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T16:11:36Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="8fc7e058-9768-40e7-8319-913f7eeaa58d">
+  <pid>3780</pid>
+  <parentpid>21656</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>SearchFilterHost.exe</name>
+  <arguments>"C:\WINDOWS\system32\SearchFilterHost.exe" 0 808 812 820 8192 816 792 </arguments>
+  <Username>NT AUTHORITY\SYSTEM</Username>
+  <SecurityID>S-1-5-18</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-08T16:12:39Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="cf135fb8-e5d9-4c71-9a55-0519c710689f">
+  <pid>14328</pid>
+  <parentpid>17548</parentpid>
+  <path>C:\WINDOWS\System32</path>
+  <name>cmd.exe</name>
+  <arguments>"C:\WINDOWS\System32\cmd.exe" /C "C:\Users\Anubhav Chauhan\Desktop\INT311\Collector\Helper.bat" </arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T16:13:03Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="ec10475c-eeb0-4bcd-b3a0-4ddc35ac9569">
+  <pid>6380</pid>
+  <parentpid>14328</parentpid>
+  <path>C:\WINDOWS\system32</path>
+  <name>conhost.exe</name>
+  <arguments>\??\C:\WINDOWS\system32\conhost.exe 0x4</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T16:13:04Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="d80f1461-c053-478f-9ffc-ca786e5645b4">
+  <pid>18516</pid>
+  <parentpid>604</parentpid>
+  <path>C:\WINDOWS\system32\wbem</path>
+  <name>wmiprvse.exe</name>
+  <arguments>C:\WINDOWS\system32\wbem\wmiprvse.exe</arguments>
+  <Username>NT AUTHORITY\LOCAL SERVICE</Username>
+  <SecurityID>S-1-5-19</SecurityID>
+  <SecurityType>SidTypeWellKnownGroup</SecurityType>
+  <startTime>2023-04-08T16:13:04Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+ <ProcessItem created="2023-04-08T16:13:07Z" uid="da2f441f-27cf-46b5-b2b7-49133d59df22">
+  <pid>7152</pid>
+  <parentpid>9368</parentpid>
+  <path>C:\Users\Anubhav Chauhan\Desktop\INT311\Collector\x64</path>
+  <name>xagt.exe</name>
+  <arguments>"C:\Users\Anubhav Chauhan\Desktop\INT311\Collector\x64\xagt.exe" --mode AUDIT --iofd 3 --log DEBUG --logfd 4</arguments>
+  <Username>DESKTOP-QHAE1C8\Anubhav Chauhan</Username>
+  <SecurityID>S-1-5-21-1112028663-421957144-1529483504-1001</SecurityID>
+  <SecurityType>SidTypeUser</SecurityType>
+  <startTime>2023-04-08T16:13:07Z</startTime>
+  <kernelTime>PT0S</kernelTime>
+  <userTime>PT0S</userTime>
+ </ProcessItem>
+</itemList>

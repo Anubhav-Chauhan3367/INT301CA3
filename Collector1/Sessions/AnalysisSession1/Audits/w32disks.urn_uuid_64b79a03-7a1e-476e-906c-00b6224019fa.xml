@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemList generator="w32disks" generatorVersion="1.4.36.0" itemSchemaLocation="http://schemas.mandiant.com/2013/11/diskitem.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://schemas.mandiant.com/2013/11/mir.w32disks.xsd">
+ <DiskItem created="2023-04-09T07:41:22Z" uid="420464fd-7e6b-40a5-9955-eda68b48f089">
+  <DiskName>\\.\PhysicalDrive0</DiskName>
+  <DiskSize>1000204886016</DiskSize>
+  <PartitionList>
+   <Partition>
+    <PartitionNumber>1</PartitionNumber>
+    <PartitionOffset>1048576</PartitionOffset>
+    <PartitionLength>575668224</PartitionLength>
+    <PartitionType>PARTITION_IFS</PartitionType>
+   </Partition>
+   <Partition>
+    <PartitionNumber>2</PartitionNumber>
+    <PartitionOffset>576716800</PartitionOffset>
+    <PartitionLength>188168011776</PartitionLength>
+    <PartitionType>PARTITION_IFS</PartitionType>
+   </Partition>
+   <Partition>
+    <PartitionNumber>3</PartitionNumber>
+    <PartitionOffset>188744728576</PartitionOffset>
+    <PartitionLength>419430400000</PartitionLength>
+    <PartitionType>PARTITION_IFS</PartitionType>
+   </Partition>
+   <Partition>
+    <PartitionNumber>4</PartitionNumber>
+    <PartitionOffset>608175128576</PartitionOffset>
+    <PartitionLength>392027963392</PartitionLength>
+    <PartitionType>PARTITION_IFS</PartitionType>
+   </Partition>
+  </PartitionList>
+ </DiskItem>
+</itemList>
